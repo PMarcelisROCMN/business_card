@@ -29,26 +29,14 @@ class App extends StatelessWidget {
                   radius: 100,
                   backgroundImage: AssetImage('images/rando1.jpeg'),
                 ),
-                InkWell(
-                  child: SizedBox(
-
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-
-                        ),
-                        child: Text(
-                          'button',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 40.0,
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Pacifico'
-                          ),
-                        ),
-                      )
+                Text(
+                  'button',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 40.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Pacifico'
                   ),
-                  onTap: () {},
                 ),
               ],
             ),
